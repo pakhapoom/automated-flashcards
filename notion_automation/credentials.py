@@ -1,6 +1,8 @@
-from dotenv import load_dotenv
+# import: standard
 import os
 
+# import: external
+from dotenv import load_dotenv
 
 load_dotenv()
 
