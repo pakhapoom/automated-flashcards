@@ -59,7 +59,7 @@ class WordLookup:
 
     @staticmethod
     def get_basic_input_dict(
-        word: str,
+        vocab: str,
         definition: str,
         pos: str,
         example: str = "",
@@ -69,7 +69,7 @@ class WordLookup:
         # TODO: implement the processes to get `example` and `synonym`.
 
         return {
-            "vocab": word,
+            "vocab": vocab,
             "definition": definition,
             "pos": pos,
             "example": example,
@@ -102,7 +102,7 @@ class WordLookup:
 
         # TODO: implement the processes to get `example` and `synonym`.
         input_dict = self.get_basic_input_dict(
-            word=word,
+            vocab=word,
             definition=definitions_str,
             pos=pos,
         )
